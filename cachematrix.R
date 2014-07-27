@@ -1,8 +1,11 @@
-## Put comments here that give an overall description of what your
+## Those two functions will calculate the inverse of given matrix nd will store the 
 ## functions do
 
-## Write a short comment describing this function
 
+
+## This function returns the list of functions to set the value of matrix, get the value of 
+## matrix, set the value of inverse of given matrix by 
+## using function solve() and get the value of previously calculated inverse of matrix. 
 makeCacheMatrix <- function(x = matrix()) {
        inverse <- NULL
        set <- function(y) {
@@ -16,6 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
             setinverse = setinverse,
             getinverse = getinverse)
 }
+
 
 
 ## Function checks if the value of inverse in global space is equal to "NULL". 
